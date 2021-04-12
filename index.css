@@ -76,17 +76,65 @@ li a:hover {
 
 .content-left {
   width: 290px;
-  height: 200px;
-  /* display: flex; */
+  height: 250px;
+  display: flex;
   flex-direction: column;
   border: 1px solid red;
-  background-color: orange;
+  background-color: white;
 }
 
-/* .content-left img {
+.cover-picture {
   max-width: 290px;
-  height: auto;
-} */
+  position: relative;
+  /* padding: 20px; */
+  /* height: auto; */
+  background-color: black;
+  z-index: 2;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.profile-picture {
+  display: flex;
+  /* align-items: center; */
+  position: relative;
+  top: -20px;
+  height: 75px;
+  background-color: white;
+  border: 1px solid red;
+  /* z-index: 1; */
+}
+
+.profile-picture img {
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 60px;
+  height: 60px;
+  z-index: 5;
+}
+
+.profile-picture p {
+  /* margin-left: 10px; */
+  margin: 25px 0 10px 10px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -20px;
+  border: 1px solid red;
+  font-weight: bold;
+  color: gray;
+  line-height: 2;
+}
 
 .content-center {
   display: flex;
