@@ -35,7 +35,7 @@ li a {
 }
 
 li a:hover {
-  border-bottom: 3px solid #33a3ff;
+  border-bottom: 3px solid #4AB3F4;
 }
 
 .nav-center {
@@ -204,6 +204,13 @@ li a:hover {
   padding: 10px 18px;
   font-size: medium;
   color: #33a3ff;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .content-right {
+    display: none;
+  }
 }
 
 /* .flex {
