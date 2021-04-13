@@ -24,6 +24,7 @@ ul {
 
 li {
   float: left;
+  font-weight: bold;
 }
 
 li a {
@@ -45,9 +46,13 @@ li a:hover {
   margin: auto;
 }
 
+.nav-center img {
+  padding-top: 5px;
+}
+
 
 .nav-right button {
-  
+  margin: 3px 10px;
   border: none;
   float: right;
   border-radius: 15px;
@@ -62,7 +67,9 @@ li a:hover {
   background-color: #7bc4ff;
 }
 
-
+.skip-link {
+  display: none;
+}
 
 
 .content-wrapper {
@@ -71,23 +78,21 @@ li a:hover {
   max-width: 1190px;
   height: 600px;
   margin: 56px auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .content-left {
   width: 290px;
-  height: 250px;
+  height: 215px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: white;
 }
 
 .cover-picture {
   max-width: 290px;
   position: relative;
-  /* padding: 20px; */
-  /* height: auto; */
   background-color: black;
   z-index: 2;
 }
@@ -102,13 +107,11 @@ li a:hover {
 
 .profile-picture {
   display: flex;
-  /* align-items: center; */
   position: relative;
   top: -20px;
   height: 75px;
   background-color: white;
-  border: 1px solid red;
-  /* z-index: 1; */
+  /* border: 1px solid red; */
 }
 
 .profile-picture img {
@@ -121,7 +124,6 @@ li a:hover {
 }
 
 .profile-picture p {
-  /* margin-left: 10px; */
   margin: 25px 0 10px 10px;
 }
 
@@ -129,11 +131,15 @@ li a:hover {
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: -20px;
-  border: 1px solid red;
+  top: -10px;
+  /* border: 1px solid red; */
   font-weight: bold;
   color: gray;
   line-height: 2;
+}
+
+.profile-stats p {
+  margin: 0;
 }
 
 .content-center {
@@ -142,7 +148,7 @@ li a:hover {
   width: 580px;
   height: 370px;
   margin: 0 5px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: white;
 }
 
@@ -150,12 +156,10 @@ li a:hover {
   display: flex;
   border-bottom: 1px solid #e6ecf0;
   min-height: 51px;
-  /* align-items: center; */
 }
 
 .tweet img {
   margin: 10px;
-  /* padding: 10px; */    /* looks same as margin but tech diff */
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -171,7 +175,7 @@ li a:hover {
 .content-right {
   width: 290px;
   height: 250px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: white;
 }
 
@@ -183,12 +187,10 @@ li a:hover {
   display: flex;
   border-bottom: 1px solid #e6ecf0;
   min-height: 51px;
-  /* align-items: center; */
 }
 
 .suggested-profile img {
   margin: 10px;
-  /* padding: 10px; */    /* looks same as margin but tech diff */
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -196,7 +198,6 @@ li a:hover {
 
 .content-right button {
   border: 2px solid #33a3ff;
-  /* float: right; */
   border-radius: 15px;
   background-color: white;
   text-align: center;
@@ -212,8 +213,3 @@ li a:hover {
     display: none;
   }
 }
-
-/* .flex {
-  display: flex;
-  justify-content: space-around;
-} */
